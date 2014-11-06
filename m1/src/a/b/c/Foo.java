@@ -1,5 +1,6 @@
 package a.b.c;
 
+import a.b.c.Bar;
 import mylibs.aspectj_lib1.myclasses.LibClazz1;
 
 /**

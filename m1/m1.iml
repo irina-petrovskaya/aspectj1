@@ -2,7 +2,13 @@
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="AspectJ" name="AspectJ">
-      <configuration />
+      <configuration>
+        <option name="aspectPath">
+          <appLibrary>
+            <option name="name" value="aspectj_lib2" />
+          </appLibrary>
+        </option>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
@@ -15,14 +21,6 @@
     <orderEntry type="library" name="aspectjrt" level="application" />
     <orderEntry type="library" name="aspectj_lib1" level="project" />
     <orderEntry type="module" module-name="m2" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../aspectj_lib2/out/artifacts/aspectj_lib2_jar/aspectj_lib2.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="RUNTIME" name="aspectj_lib2" level="application" />
   </component>
 </module>
