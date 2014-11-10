@@ -11,7 +11,7 @@ public class Foo {
         Bar bar = new Bar();
         Boo boo = new Boo();
         LibClazz1 lc1 = new LibClazz1("test");
-        String rez = lc1.strMethod1("foo")+" "+lc1.getOwnStr1()+" "+bar.foom1()+" "+bar.barm1()+" "+boo.foom2();
+        String rez = lc1.strMethod1("foo") + " " + lc1.getOwnStr1() + " " + bar.foom1() + " " + bar.barm1() + " " + boo.foom2();
         System.out.println(rez);
     }
 }
