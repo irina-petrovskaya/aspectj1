@@ -5,6 +5,6 @@ package a.b.c;
  */
 public class Boo {
     public String foom2(){
-        return "boomethod1";
+        return "method foom2";
     }
 }
