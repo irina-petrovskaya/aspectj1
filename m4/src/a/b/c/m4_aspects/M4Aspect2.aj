@@ -7,6 +7,7 @@ import org.aspectj.lang.annotation.Before;
  * by Irina.Petrovskaya on 11/10/2014.
  */
 public aspect M4Aspect2 {
+
     /**
      * for all public methods with name == bar* and String type
      */
