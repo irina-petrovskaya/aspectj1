@@ -5,10 +5,10 @@ package a.b.c;
  */
 public class Bar {
     public String foom1() {
-        return "foom1";
+        return "method foom1";
     }
 
     public String barm1() {
-        return "barm1";
+        return "method barm1";
     }
 }
